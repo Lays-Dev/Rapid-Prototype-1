@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: -9052864701491800557}
   - component: {fileID: -3009500771987476946}
   - component: {fileID: 2442498506694777423}
+  - component: {fileID: 8315179175660944912}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -226,7 +227,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9013168638881132970}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -306,3 +307,15 @@ MonoBehaviour:
   ProjectilePrefab: {fileID: 9013168638881132970}
   firePoint: {fileID: 0}
   bulletSpeed: 1
+--- !u!114 &8315179175660944912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9013168638881132970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9c27c785d14364a9fa6ba685911ace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileEnd
