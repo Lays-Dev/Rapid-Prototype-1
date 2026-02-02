@@ -693,6 +693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Projectile2
   ProjectilePrefab: {fileID: 9013168638881132970, guid: 31d01397f7c61994d9f4db0b7211b2fb, type: 3}
   firePoint: {fileID: 503395210}
+  damage: 1
   bulletSpeed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
