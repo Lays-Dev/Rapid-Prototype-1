@@ -23,17 +23,17 @@ public class ProjectileBullet : MonoBehaviour
             return;
         }
 
-        // Check for SheildHealth (if you still use it for something)
-        SheildHealth shield = other.GetComponent<SheildHealth>();
+        // Check for SheildHealth 
+        ShieldHealth shield = other.GetComponent<ShieldHealth>();
         if (shield != null)
         {
-            shield.TakeDamage(damage);
+            shield.TakeDamage(Mathf.RoundToInt(damage));
             Destroy(gameObject);
             return;
         }
 
-        // Optional: destroy on walls
-        if (other.CompareTag("Wall"))
+        // Destroy on walls
+        if (other.gameObject.layer == LayerMask.NameToLayer("Walls"))
         {
             Destroy(gameObject);
         }

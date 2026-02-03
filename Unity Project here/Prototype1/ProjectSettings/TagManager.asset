@@ -14,7 +14,7 @@ TagManager:
   - Attack
   - Enemy
   - Walls
-  - 
+  - Background
   - 
   - 
   - 
@@ -40,6 +40,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Objects
+    uniqueID: 1576115967
+    locked: 0
+  - name: Background
+    uniqueID: 3486969141
     locked: 0
   m_RenderingLayers:
   - Default

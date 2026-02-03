@@ -7,11 +7,14 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        SheildHealth enemy = other.GetComponent<SheildHealth>();
+        ShieldHealth enemy = other.GetComponent<ShieldHealth>();
+
 
         if (enemy != null)
         {
-            enemy.TakeDamage(damage);
+            // Convet float to int with (Mathf.RoundToInt(damage));
+            enemy.TakeDamage(Mathf.RoundToInt(damage));
+            // Despawn the projectile
             Destroy(gameObject);
         }
     }
