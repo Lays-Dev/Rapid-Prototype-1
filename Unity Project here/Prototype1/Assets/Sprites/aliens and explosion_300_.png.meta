@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: ed0d0a97f347762468d21f9adb531424
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5056121404580049537
+    second: aliens and explosion_300__0
+  - first:
+      213: -6003842810700872059
+    second: aliens and explosion_300__1
+  - first:
+      213: 988287154400789730
+    second: aliens and explosion_300__2
+  - first:
+      213: 3372271583745025849
+    second: aliens and explosion_300__3
+  - first:
+      213: -5914874601013000805
+    second: aliens and explosion_300__4
+  - first:
+      213: 5612120888227068421
+    second: aliens and explosion_300__5
+  - first:
+      213: 8647459325728868922
+    second: aliens and explosion_300__6
+  - first:
+      213: 2331329252431592556
+    second: aliens and explosion_300__7
+  - first:
+      213: -2174723761668375232
+    second: aliens and explosion_300__8
+  - first:
+      213: 1232236989124498785
+    second: aliens and explosion_300__9
+  - first:
+      213: 5016468850434960463
+    second: aliens and explosion_300__10
+  - first:
+      213: -8930892445214482376
+    second: aliens and explosion_300__11
+  - first:
+      213: -2084292255034166478
+    second: aliens and explosion_300__12
+  - first:
+      213: -8706416875948294946
+    second: aliens and explosion_300__13
+  - first:
+      213: 7784073064145897839
+    second: aliens and explosion_300__14
+  - first:
+      213: -3997619837488170215
+    second: aliens and explosion_300__15
+  - first:
+      213: -4296078088835827970
+    second: aliens and explosion_300__16
+  - first:
+      213: 2075655214075014080
+    second: aliens and explosion_300__17
+  - first:
+      213: 2402191435514188003
+    second: aliens and explosion_300__18
+  - first:
+      213: -5425351535373510563
+    second: aliens and explosion_300__19
+  - first:
+      213: -6012682890386455101
+    second: aliens and explosion_300__20
+  - first:
+      213: -9116738897446420780
+    second: aliens and explosion_300__21
+  - first:
+      213: 1776223603547246944
+    second: aliens and explosion_300__22
+  - first:
+      213: 6937158893170370049
+    second: aliens and explosion_300__23
+  - first:
+      213: 7791892681832378890
+    second: aliens and explosion_300__24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aliens and explosion_300__0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1223
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1823e3501a3fa2640800000000000000
+      internalID: 5056121404580049537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1223
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58644ecf5c01eaca0800000000000000
+      internalID: -6003842810700872059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1220
+        width: 101
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e404264ee917bd00800000000000000
+      internalID: 988287154400789730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1220
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937244b6327bcce20800000000000000
+      internalID: 3372271583745025849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__4
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1217
+        width: 125
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95c3a383e42aeda0800000000000000
+      internalID: -5914874601013000805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1073
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50af25ba63242ed40800000000000000
+      internalID: 5612120888227068421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1073
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a45b7c072f10870800000000000000
+      internalID: 8647459325728868922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1067
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c79a96a9b8a5020800000000000000
+      internalID: 2331329252431592556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1076
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04db72dc244d1d1e0800000000000000
+      internalID: -2174723761668375232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1067
+        width: 116
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165dcdf4309c91110800000000000000
+      internalID: 1232236989124498785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 968
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cecf057d31e9540800000000000000
+      internalID: 5016468850434960463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 806
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83065c393a81f0480800000000000000
+      internalID: -8930892445214482376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 647
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2333792bc3b1313e0800000000000000
+      internalID: -2084292255034166478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 482
+        width: 113
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcb2aadaf79c2780800000000000000
+      internalID: -8706416875948294946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 341
+        width: 86
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f694a16c535960c60800000000000000
+      internalID: 7784073064145897839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 200
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b767720f99588c0800000000000000
+      internalID: -3997619837488170215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 263
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6f9936db34164c0800000000000000
+      internalID: -4296078088835827970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 191
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbe02f7b653ecc10800000000000000
+      internalID: 2075655214075014080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 209
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e01f4c126c465120800000000000000
+      internalID: 2402191435514188003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 89
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d581178f58745b4b0800000000000000
+      internalID: -5425351535373510563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5427b84c8ae8ca0800000000000000
+      internalID: -6012682890386455101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 71
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de38bb7646da7180800000000000000
+      internalID: -9116738897446420780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 50
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0611913e4f966a810800000000000000
+      internalID: 1776223603547246944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 59
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106acd9324db54060800000000000000
+      internalID: 6937158893170370049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aliens and explosion_300__24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 62
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02b5946c1d522c60800000000000000
+      internalID: 7791892681832378890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aliens and explosion_300__0: 5056121404580049537
+      aliens and explosion_300__1: -6003842810700872059
+      aliens and explosion_300__10: 5016468850434960463
+      aliens and explosion_300__11: -8930892445214482376
+      aliens and explosion_300__12: -2084292255034166478
+      aliens and explosion_300__13: -8706416875948294946
+      aliens and explosion_300__14: 7784073064145897839
+      aliens and explosion_300__15: -3997619837488170215
+      aliens and explosion_300__16: -4296078088835827970
+      aliens and explosion_300__17: 2075655214075014080
+      aliens and explosion_300__18: 2402191435514188003
+      aliens and explosion_300__19: -5425351535373510563
+      aliens and explosion_300__2: 988287154400789730
+      aliens and explosion_300__20: -6012682890386455101
+      aliens and explosion_300__21: -9116738897446420780
+      aliens and explosion_300__22: 1776223603547246944
+      aliens and explosion_300__23: 6937158893170370049
+      aliens and explosion_300__24: 7791892681832378890
+      aliens and explosion_300__3: 3372271583745025849
+      aliens and explosion_300__4: -5914874601013000805
+      aliens and explosion_300__5: 5612120888227068421
+      aliens and explosion_300__6: 8647459325728868922
+      aliens and explosion_300__7: 2331329252431592556
+      aliens and explosion_300__8: -2174723761668375232
+      aliens and explosion_300__9: 1232236989124498785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
