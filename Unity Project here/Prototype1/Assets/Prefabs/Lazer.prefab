@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8123703668589902574}
   m_Layer: 6
   m_Name: Lazer
-  m_TagString: Untagged
+  m_TagString: EnemyLaser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

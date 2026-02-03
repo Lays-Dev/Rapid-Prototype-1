@@ -9,6 +9,12 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private float verticalInput;
 
+    void Start()
+    {
+        Time.timeScale = 1f; 
+    }
+
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

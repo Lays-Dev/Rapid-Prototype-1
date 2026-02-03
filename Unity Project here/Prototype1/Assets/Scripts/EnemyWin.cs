@@ -3,10 +3,13 @@ using UnityEngine.SceneManagement; // Needed to change scenes
 
 public class EnemyWin : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void Update()
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        
+        // Check if they reach an X position to end the game
+        if (transform.position.x <= -5f)
         {
+            Debug.Log("Threshold reached! Triggering Game Over.");
             // Trigger game over
             GameOver();
         }

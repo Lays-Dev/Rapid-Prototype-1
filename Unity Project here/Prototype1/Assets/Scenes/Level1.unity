@@ -151,7 +151,6 @@ Transform:
   - {fileID: 906584250}
   - {fileID: 1327292676}
   - {fileID: 1416059016}
-  - {fileID: 741344976}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &192246227
@@ -168,6 +167,7 @@ GameObject:
   - component: {fileID: 192246230}
   - component: {fileID: 192246232}
   - component: {fileID: 192246233}
+  - component: {fileID: 192246234}
   m_Layer: 7
   m_Name: Enemy Asset_0 (39)
   m_TagString: Untagged
@@ -284,7 +284,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &192246231
 MonoBehaviour:
@@ -323,6 +323,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &192246234
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192246227}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &210453706
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +364,7 @@ GameObject:
   - component: {fileID: 210453709}
   - component: {fileID: 210453711}
   - component: {fileID: 210453712}
+  - component: {fileID: 210453713}
   m_Layer: 7
   m_Name: Enemy Asset_0 (7)
   m_TagString: Untagged
@@ -492,6 +520,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &210453713
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210453706}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &218634135
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,6 +561,7 @@ GameObject:
   - component: {fileID: 218634138}
   - component: {fileID: 218634140}
   - component: {fileID: 218634141}
+  - component: {fileID: 218634142}
   m_Layer: 7
   m_Name: Enemy Asset_0 (9)
   m_TagString: Untagged
@@ -622,7 +678,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &218634139
 MonoBehaviour:
@@ -661,6 +717,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &218634142
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218634135}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &259863892
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +758,7 @@ GameObject:
   - component: {fileID: 259863895}
   - component: {fileID: 259863897}
   - component: {fileID: 259863898}
+  - component: {fileID: 259863899}
   m_Layer: 7
   m_Name: Enemy Asset_0 (20)
   m_TagString: Untagged
@@ -791,7 +875,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &259863896
 MonoBehaviour:
@@ -830,6 +914,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &259863899
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259863892}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &270453045
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,6 +955,7 @@ GameObject:
   - component: {fileID: 270453048}
   - component: {fileID: 270453050}
   - component: {fileID: 270453051}
+  - component: {fileID: 270453052}
   m_Layer: 7
   m_Name: Enemy Asset_0 (27)
   m_TagString: Untagged
@@ -960,7 +1072,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &270453049
 MonoBehaviour:
@@ -999,6 +1111,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &270453052
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270453045}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &287989350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1183,7 @@ GameObject:
   - component: {fileID: 305016493}
   - component: {fileID: 305016495}
   - component: {fileID: 305016496}
+  - component: {fileID: 305016497}
   m_Layer: 7
   m_Name: Enemy Asset_0 (16)
   m_TagString: Untagged
@@ -1160,7 +1300,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &305016494
 MonoBehaviour:
@@ -1199,6 +1339,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &305016497
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305016490}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &375460329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,6 +1380,7 @@ GameObject:
   - component: {fileID: 375460332}
   - component: {fileID: 375460334}
   - component: {fileID: 375460335}
+  - component: {fileID: 375460336}
   m_Layer: 7
   m_Name: Enemy Asset_0 (17)
   m_TagString: Untagged
@@ -1329,7 +1497,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &375460333
 MonoBehaviour:
@@ -1368,6 +1536,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &375460336
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375460329}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &390878246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1382,6 +1577,7 @@ GameObject:
   - component: {fileID: 390878249}
   - component: {fileID: 390878251}
   - component: {fileID: 390878252}
+  - component: {fileID: 390878253}
   m_Layer: 7
   m_Name: Enemy Asset_0 (37)
   m_TagString: Untagged
@@ -1498,7 +1694,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &390878250
 MonoBehaviour:
@@ -1537,6 +1733,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &390878253
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390878246}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &442405240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1774,7 @@ GameObject:
   - component: {fileID: 442405243}
   - component: {fileID: 442405245}
   - component: {fileID: 442405246}
+  - component: {fileID: 442405247}
   m_Layer: 7
   m_Name: Enemy Asset_0 (10)
   m_TagString: Untagged
@@ -1667,7 +1891,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &442405244
 MonoBehaviour:
@@ -1706,6 +1930,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &442405247
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442405240}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &473770470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,6 +1971,7 @@ GameObject:
   - component: {fileID: 473770473}
   - component: {fileID: 473770475}
   - component: {fileID: 473770476}
+  - component: {fileID: 473770477}
   m_Layer: 7
   m_Name: Enemy Asset_0 (23)
   m_TagString: Untagged
@@ -1836,7 +2088,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &473770474
 MonoBehaviour:
@@ -1875,6 +2127,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &473770477
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473770470}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &486210851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,6 +2168,7 @@ GameObject:
   - component: {fileID: 486210854}
   - component: {fileID: 486210856}
   - component: {fileID: 486210857}
+  - component: {fileID: 486210858}
   m_Layer: 7
   m_Name: Enemy Asset_0 (6)
   m_TagString: Untagged
@@ -2005,7 +2285,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &486210855
 MonoBehaviour:
@@ -2044,6 +2324,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &486210858
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486210851}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &492109375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,6 +2365,7 @@ GameObject:
   - component: {fileID: 492109378}
   - component: {fileID: 492109380}
   - component: {fileID: 492109381}
+  - component: {fileID: 492109382}
   m_Layer: 7
   m_Name: Enemy Asset_0 (5)
   m_TagString: Untagged
@@ -2174,7 +2482,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &492109379
 MonoBehaviour:
@@ -2213,6 +2521,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &492109382
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492109375}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &497483730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2562,7 @@ GameObject:
   - component: {fileID: 497483733}
   - component: {fileID: 497483735}
   - component: {fileID: 497483736}
+  - component: {fileID: 497483737}
   m_Layer: 7
   m_Name: Enemy Asset_0 (28)
   m_TagString: Untagged
@@ -2343,7 +2679,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &497483734
 MonoBehaviour:
@@ -2382,6 +2718,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &497483737
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497483730}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &503395209
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,6 +2927,7 @@ GameObject:
   - component: {fileID: 545390109}
   - component: {fileID: 545390111}
   - component: {fileID: 545390112}
+  - component: {fileID: 545390113}
   m_Layer: 7
   m_Name: Enemy Asset_0 (29)
   m_TagString: Untagged
@@ -2680,7 +3044,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &545390110
 MonoBehaviour:
@@ -2719,6 +3083,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &545390113
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545390106}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &560387312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,6 +3124,7 @@ GameObject:
   - component: {fileID: 560387315}
   - component: {fileID: 560387317}
   - component: {fileID: 560387318}
+  - component: {fileID: 560387319}
   m_Layer: 7
   m_Name: Enemy Asset_0 (13)
   m_TagString: Untagged
@@ -2849,7 +3241,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &560387316
 MonoBehaviour:
@@ -2888,6 +3280,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &560387319
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560387312}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &570396220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,6 +3321,7 @@ GameObject:
   - component: {fileID: 570396223}
   - component: {fileID: 570396225}
   - component: {fileID: 570396226}
+  - component: {fileID: 570396227}
   m_Layer: 7
   m_Name: Enemy Asset_0
   m_TagString: Untagged
@@ -3018,7 +3438,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &570396224
 MonoBehaviour:
@@ -3057,6 +3477,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &570396227
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570396220}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,6 +3602,7 @@ GameObject:
   - component: {fileID: 670786146}
   - component: {fileID: 670786148}
   - component: {fileID: 670786149}
+  - component: {fileID: 670786150}
   m_Layer: 7
   m_Name: Enemy Asset_0 (3)
   m_TagString: Untagged
@@ -3271,7 +3719,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &670786147
 MonoBehaviour:
@@ -3310,48 +3758,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
---- !u!1 &741344975
-GameObject:
+--- !u!50 &670786150
+Rigidbody2D:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 741344976}
-  - component: {fileID: 741344977}
-  m_Layer: 0
-  m_Name: DeathBoarder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &741344976
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741344975}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 89888099}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &741344977
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741344975}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
+  m_GameObject: {fileID: 670786143}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3359,35 +3781,10 @@ BoxCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -8.1761675, y: 1.7184829}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.21694374, y: 10.750813}
-  m_EdgeRadius: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &757282929
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,6 +3799,7 @@ GameObject:
   - component: {fileID: 757282932}
   - component: {fileID: 757282934}
   - component: {fileID: 757282935}
+  - component: {fileID: 757282936}
   m_Layer: 7
   m_Name: Enemy Asset_0 (11)
   m_TagString: Untagged
@@ -3518,7 +3916,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &757282933
 MonoBehaviour:
@@ -3557,6 +3955,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &757282936
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757282929}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &861298492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3832,6 +4257,7 @@ GameObject:
   - component: {fileID: 911149205}
   - component: {fileID: 911149207}
   - component: {fileID: 911149208}
+  - component: {fileID: 911149209}
   m_Layer: 7
   m_Name: Enemy Asset_0 (24)
   m_TagString: Untagged
@@ -3948,7 +4374,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &911149206
 MonoBehaviour:
@@ -3987,6 +4413,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &911149209
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911149202}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &937937666
 GameObject:
   m_ObjectHideFlags: 0
@@ -4152,6 +4605,7 @@ GameObject:
   - component: {fileID: 967063841}
   - component: {fileID: 967063843}
   - component: {fileID: 967063844}
+  - component: {fileID: 967063845}
   m_Layer: 7
   m_Name: Enemy Asset_0 (35)
   m_TagString: Untagged
@@ -4268,7 +4722,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &967063842
 MonoBehaviour:
@@ -4307,6 +4761,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &967063845
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967063838}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1074660387
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,6 +4802,7 @@ GameObject:
   - component: {fileID: 1074660390}
   - component: {fileID: 1074660392}
   - component: {fileID: 1074660393}
+  - component: {fileID: 1074660394}
   m_Layer: 7
   m_Name: Enemy Asset_0 (32)
   m_TagString: Untagged
@@ -4437,7 +4919,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1074660391
 MonoBehaviour:
@@ -4476,6 +4958,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1074660394
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074660387}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1102622313
 GameObject:
   m_ObjectHideFlags: 0
@@ -4490,6 +4999,7 @@ GameObject:
   - component: {fileID: 1102622316}
   - component: {fileID: 1102622318}
   - component: {fileID: 1102622319}
+  - component: {fileID: 1102622320}
   m_Layer: 7
   m_Name: Enemy Asset_0 (21)
   m_TagString: Untagged
@@ -4606,7 +5116,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1102622317
 MonoBehaviour:
@@ -4645,6 +5155,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1102622320
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102622313}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1120383920
 GameObject:
   m_ObjectHideFlags: 0
@@ -4659,6 +5196,7 @@ GameObject:
   - component: {fileID: 1120383923}
   - component: {fileID: 1120383925}
   - component: {fileID: 1120383926}
+  - component: {fileID: 1120383927}
   m_Layer: 7
   m_Name: Enemy Asset_0 (8)
   m_TagString: Untagged
@@ -4775,7 +5313,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1120383924
 MonoBehaviour:
@@ -4814,6 +5352,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1120383927
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120383920}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1234080056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,6 +5393,7 @@ GameObject:
   - component: {fileID: 1234080059}
   - component: {fileID: 1234080061}
   - component: {fileID: 1234080062}
+  - component: {fileID: 1234080063}
   m_Layer: 7
   m_Name: Enemy Asset_0 (34)
   m_TagString: Untagged
@@ -4944,7 +5510,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1234080060
 MonoBehaviour:
@@ -4983,6 +5549,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1234080063
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234080056}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1287436747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4997,6 +5590,7 @@ GameObject:
   - component: {fileID: 1287436750}
   - component: {fileID: 1287436752}
   - component: {fileID: 1287436753}
+  - component: {fileID: 1287436754}
   m_Layer: 7
   m_Name: Enemy Asset_0 (36)
   m_TagString: Untagged
@@ -5113,7 +5707,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1287436751
 MonoBehaviour:
@@ -5152,6 +5746,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1287436754
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287436747}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1294173780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5166,6 +5787,7 @@ GameObject:
   - component: {fileID: 1294173783}
   - component: {fileID: 1294173785}
   - component: {fileID: 1294173786}
+  - component: {fileID: 1294173787}
   m_Layer: 7
   m_Name: Enemy Asset_0 (18)
   m_TagString: Untagged
@@ -5282,7 +5904,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1294173784
 MonoBehaviour:
@@ -5321,6 +5943,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1294173787
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294173780}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1327292674
 GameObject:
   m_ObjectHideFlags: 0
@@ -5413,6 +6062,7 @@ GameObject:
   - component: {fileID: 1350444236}
   - component: {fileID: 1350444238}
   - component: {fileID: 1350444239}
+  - component: {fileID: 1350444240}
   m_Layer: 7
   m_Name: Enemy Asset_0 (25)
   m_TagString: Untagged
@@ -5529,7 +6179,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1350444237
 MonoBehaviour:
@@ -5568,6 +6218,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1350444240
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350444233}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1415754539
 GameObject:
   m_ObjectHideFlags: 0
@@ -5695,6 +6372,7 @@ GameObject:
   - component: {fileID: 1446788814}
   - component: {fileID: 1446788816}
   - component: {fileID: 1446788817}
+  - component: {fileID: 1446788818}
   m_Layer: 7
   m_Name: Enemy Asset_0 (1)
   m_TagString: Untagged
@@ -5811,7 +6489,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1446788815
 MonoBehaviour:
@@ -5850,6 +6528,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1446788818
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446788811}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1492826613
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,6 +6569,7 @@ GameObject:
   - component: {fileID: 1492826616}
   - component: {fileID: 1492826618}
   - component: {fileID: 1492826619}
+  - component: {fileID: 1492826620}
   m_Layer: 7
   m_Name: Enemy Asset_0 (31)
   m_TagString: Untagged
@@ -5980,7 +6686,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1492826617
 MonoBehaviour:
@@ -6019,6 +6725,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1492826620
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492826613}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1521835511
 GameObject:
   m_ObjectHideFlags: 0
@@ -6033,6 +6766,7 @@ GameObject:
   - component: {fileID: 1521835514}
   - component: {fileID: 1521835516}
   - component: {fileID: 1521835517}
+  - component: {fileID: 1521835518}
   m_Layer: 7
   m_Name: Enemy Asset_0 (40)
   m_TagString: Untagged
@@ -6149,7 +6883,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1521835515
 MonoBehaviour:
@@ -6188,6 +6922,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1521835518
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521835511}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1555500950
 GameObject:
   m_ObjectHideFlags: 0
@@ -6202,6 +6963,7 @@ GameObject:
   - component: {fileID: 1555500953}
   - component: {fileID: 1555500955}
   - component: {fileID: 1555500956}
+  - component: {fileID: 1555500957}
   m_Layer: 7
   m_Name: Enemy Asset_0 (14)
   m_TagString: Untagged
@@ -6318,7 +7080,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1555500954
 MonoBehaviour:
@@ -6357,6 +7119,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1555500957
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555500950}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1567863577
 GameObject:
   m_ObjectHideFlags: 0
@@ -6371,6 +7160,7 @@ GameObject:
   - component: {fileID: 1567863580}
   - component: {fileID: 1567863582}
   - component: {fileID: 1567863583}
+  - component: {fileID: 1567863584}
   m_Layer: 7
   m_Name: Enemy Asset_0 (12)
   m_TagString: Untagged
@@ -6487,7 +7277,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1567863581
 MonoBehaviour:
@@ -6526,6 +7316,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1567863584
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567863577}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1623299796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6540,6 +7357,7 @@ GameObject:
   - component: {fileID: 1623299799}
   - component: {fileID: 1623299801}
   - component: {fileID: 1623299802}
+  - component: {fileID: 1623299803}
   m_Layer: 7
   m_Name: Enemy Asset_0 (22)
   m_TagString: Untagged
@@ -6656,7 +7474,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1623299800
 MonoBehaviour:
@@ -6695,6 +7513,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1623299803
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623299796}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1655756260
 GameObject:
   m_ObjectHideFlags: 0
@@ -6956,6 +7801,7 @@ GameObject:
   - component: {fileID: 1698751622}
   - component: {fileID: 1698751624}
   - component: {fileID: 1698751625}
+  - component: {fileID: 1698751626}
   m_Layer: 7
   m_Name: Enemy Asset_0 (30)
   m_TagString: Untagged
@@ -7072,7 +7918,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1698751623
 MonoBehaviour:
@@ -7111,6 +7957,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1698751626
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698751619}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1757908460
 GameObject:
   m_ObjectHideFlags: 0
@@ -7216,6 +8089,7 @@ GameObject:
   - component: {fileID: 1775606326}
   - component: {fileID: 1775606328}
   - component: {fileID: 1775606329}
+  - component: {fileID: 1775606330}
   m_Layer: 7
   m_Name: Enemy Asset_0 (33)
   m_TagString: Untagged
@@ -7332,7 +8206,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1775606327
 MonoBehaviour:
@@ -7371,6 +8245,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1775606330
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775606323}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1822658662
 GameObject:
   m_ObjectHideFlags: 0
@@ -7385,6 +8286,7 @@ GameObject:
   - component: {fileID: 1822658665}
   - component: {fileID: 1822658667}
   - component: {fileID: 1822658668}
+  - component: {fileID: 1822658669}
   m_Layer: 7
   m_Name: Enemy Asset_0 (2)
   m_TagString: Untagged
@@ -7501,7 +8403,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1822658666
 MonoBehaviour:
@@ -7540,6 +8442,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1822658669
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822658662}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1861948614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,7 +8656,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   maxStepTime: 1.5
-  minStepTime: 0.5
+  minStepTime: 0.7
 --- !u!4 &1873275815
 Transform:
   m_ObjectHideFlags: 0
@@ -7799,7 +8728,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 8292329769745145681, guid: 131d9bc67dd3fdb41a2e63ae3b5ba0a2, type: 3}
   bulletsParent: {fileID: 0}
   shootInterval: 3
-  shootProbability: 0.3
+  shootProbability: 0.5
 --- !u!1 &1904264625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7814,6 +8743,7 @@ GameObject:
   - component: {fileID: 1904264628}
   - component: {fileID: 1904264630}
   - component: {fileID: 1904264631}
+  - component: {fileID: 1904264632}
   m_Layer: 7
   m_Name: Enemy Asset_0 (4)
   m_TagString: Untagged
@@ -7930,7 +8860,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1904264629
 MonoBehaviour:
@@ -7969,6 +8899,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1904264632
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904264625}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1919697329
 GameObject:
   m_ObjectHideFlags: 0
@@ -8134,6 +9091,7 @@ GameObject:
   - component: {fileID: 1956605489}
   - component: {fileID: 1956605491}
   - component: {fileID: 1956605492}
+  - component: {fileID: 1956605493}
   m_Layer: 7
   m_Name: Enemy Asset_0 (15)
   m_TagString: Untagged
@@ -8250,7 +9208,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &1956605490
 MonoBehaviour:
@@ -8289,6 +9247,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &1956605493
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956605486}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2046283569
 GameObject:
   m_ObjectHideFlags: 0
@@ -8303,6 +9288,7 @@ GameObject:
   - component: {fileID: 2046283572}
   - component: {fileID: 2046283574}
   - component: {fileID: 2046283575}
+  - component: {fileID: 2046283576}
   m_Layer: 7
   m_Name: Enemy Asset_0 (38)
   m_TagString: Untagged
@@ -8419,7 +9405,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &2046283573
 MonoBehaviour:
@@ -8458,6 +9444,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &2046283576
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046283569}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2054836036
 GameObject:
   m_ObjectHideFlags: 0
@@ -8472,6 +9485,7 @@ GameObject:
   - component: {fileID: 2054836039}
   - component: {fileID: 2054836041}
   - component: {fileID: 2054836042}
+  - component: {fileID: 2054836043}
   m_Layer: 7
   m_Name: Enemy Asset_0 (19)
   m_TagString: Untagged
@@ -8588,7 +9602,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &2054836040
 MonoBehaviour:
@@ -8627,6 +9641,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &2054836043
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054836036}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2132829209
 GameObject:
   m_ObjectHideFlags: 0
@@ -8641,6 +9682,7 @@ GameObject:
   - component: {fileID: 2132829212}
   - component: {fileID: 2132829214}
   - component: {fileID: 2132829215}
+  - component: {fileID: 2132829216}
   m_Layer: 7
   m_Name: Enemy Asset_0 (26)
   m_TagString: Untagged
@@ -8757,7 +9799,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26, y: 0.32}
+  m_Size: {x: 0.7, y: 0.0001}
   m_Direction: 0
 --- !u!114 &2132829213
 MonoBehaviour:
@@ -8796,6 +9838,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc7478fe80e723d4db79e822d9aaa36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWin
+--- !u!50 &2132829216
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132829209}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -26,6 +26,7 @@ public class EnemyFormation : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Enemy count requested");
         startingEnemyCount = transform.childCount;
         UpdateStepSpeed();
     }
@@ -90,9 +91,11 @@ public class EnemyFormation : MonoBehaviour
 
     public void UpdateStepSpeed()
     {
+        Debug.Log("Returning enemy count for speed update");
         int alive = transform.childCount;
 
         float t = (float)alive / startingEnemyCount;
         currentStepTime = Mathf.Lerp(minStepTime, maxStepTime, t);
+        Debug.Log("New speeed assigned : " + currentStepTime);
     }
 }
