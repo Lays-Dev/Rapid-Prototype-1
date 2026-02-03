@@ -17,33 +17,24 @@ public class Projectile2 : MonoBehaviour
 
     void Shoot()
     {
-        Debug.Log("Shoot Input Received!");
-        if (ProjectilePrefab != null && firePoint != null)
+        Debug.Log("Shoot Input RSeceived!");
+
+        // Instantiate bullet
+        GameObject bullet = Instantiate(ProjectilePrefab, firePoint.position, firePoint.rotation);
+
+        // Give bullet its velocity
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            
-            GameObject bullet = Instantiate(ProjectilePrefab, firePoint.position, firePoint.rotation);
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.linearVelocity = firePoint.right * bulletSpeed;
+        }
+
+        // Assign damage to the bullet's script
+        ProjectileBullet bulletScript = bullet.GetComponent<ProjectileBullet>();
+        if (bulletScript != null)
+        {
+            bulletScript.damage = damage;
         }
        
     }
-
-    void Update()
-    {
-        // Tells the projectile to move right at bulletspeed every frame
-        transform.Translate(Vector2.right * bulletSpeed * Time.deltaTime);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        // Check if the object hit has a health script
-        SheildHealth Enemy = other.GetComponent<SheildHealth>();
-        
-        if (Enemy != null)
-        {
-            Enemy.TakeDamage(damage);
-            Destroy(gameObject); // Destroy projectile on hit
-        }
-    }
-
 }

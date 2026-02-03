@@ -8,7 +8,8 @@ public class ProjectileEnd : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // Only destroy if it hits a wall or enemy
-        if (other.CompareTag("Wall") || other.CompareTag("Enemy"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Wall") || 
+        other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
             Destroy(gameObject); // 'gameObject' here refers to the bullet instance
         }
