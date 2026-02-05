@@ -1,4 +1,6 @@
 using UnityEngine;
+ // Dictionary code requires this namespace
+using System.Collections.Generic;
 
 // Name the script this is in EnemyFormation
 public class EnemyFormation : MonoBehaviour
@@ -24,11 +26,15 @@ public class EnemyFormation : MonoBehaviour
 
     private int startingEnemyCount;
 
+   
+
+
     void Start()
     {
         Debug.Log("Enemy count requested");
         startingEnemyCount = transform.childCount;
         UpdateStepSpeed();
+        UpdateRowShooters();
     }
 
     void Update()
@@ -59,6 +65,7 @@ public class EnemyFormation : MonoBehaviour
                 moveLeftNext = true;
             }
         }
+        UpdateRowShooters();
     }
 
     bool CheckWall()
@@ -97,5 +104,48 @@ public class EnemyFormation : MonoBehaviour
         float t = (float)alive / startingEnemyCount;
         currentStepTime = Mathf.Lerp(minStepTime, maxStepTime, t);
         Debug.Log("New speeed assigned : " + currentStepTime);
+    }
+
+    public void UpdateRowShooters()
+    {
+        // key = row index, value = left-most enemy in that row
+        Dictionary<int, Transform> leftMostByRow = new Dictionary<int, Transform>();
+
+        foreach (Transform enemy in transform)
+        {
+            if (enemy == null) continue;
+
+            EnemyScript es = enemy.GetComponent<EnemyScript>();
+            if (es == null) continue;
+
+            int row = es.rowIndex;
+
+            if (!leftMostByRow.ContainsKey(row))
+            {
+                leftMostByRow[row] = enemy;
+            }
+            else
+            {
+                EnemyScript currentLeft = leftMostByRow[row].GetComponent<EnemyScript>();
+                if (es.columnIndex < currentLeft.columnIndex)
+                {
+                    leftMostByRow[row] = enemy;
+                }
+            }
+        }
+
+        // Disable all shooters
+        foreach (Transform enemy in transform)
+        {
+            EnemyScript es = enemy.GetComponent<EnemyScript>();
+            if (es != null) es.canShoot = false;
+        }
+
+        // Enable left-most shooters
+        foreach (Transform enemy in leftMostByRow.Values)
+        {
+            EnemyScript es = enemy.GetComponent<EnemyScript>();
+            if (es != null) es.canShoot = true;
+        }
     }
 }
