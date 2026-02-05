@@ -8,17 +8,50 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    public bool canShoot;
+    public int rowIndex;
+    public int columnIndex;
+
+    public GameObject laserPrefab;  // assign EnemyLazer prefab here
+    public Transform firePoint;     // empty child transform for bullet spawn
+    public float fireCooldown = 2f;
+
+    private float fireTimer;
+    private EnemyFormation enemyFormation;
+
+    void Start()
+    {
+        enemyFormation = GetComponentInParent<EnemyFormation>();
+        fireTimer = Random.Range(0f, fireCooldown); // stagger shots
+    }
+
+    void Update()
+    {
+        if (canShoot)
+        {
+            fireTimer -= Time.deltaTime;
+            if (fireTimer <= 0f)
+            {
+                Shoot();
+                fireTimer = fireCooldown;
+            }
+        }
+    }
+
+    void Shoot()
+    {
+        if (laserPrefab != null && firePoint != null)
+        {
+            Instantiate(laserPrefab, firePoint.position, Quaternion.identity);
+        }
+    }
+
     public void Die()
     {
-        EnemyFormation formation = GetComponentInParent<EnemyFormation>();
-
-       if (formation != null)
-        {
-            formation.UpdateStepSpeed();
-        }
-
-        // Destroy the enemy GameObject
+        enemyFormation.UpdateRowShooters();
+        enemyFormation.UpdateStepSpeed();
         Destroy(gameObject);
     }
 }
+
 
