@@ -168,6 +168,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -175,12 +188,12 @@ TextureImporter:
       name: aliens and explosion_300__0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1223
-        width: 101
-        height: 104
+        x: 0
+        y: 1200
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +210,12 @@ TextureImporter:
       name: aliens and explosion_300__1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1223
-        width: 95
-        height: 101
+        x: 133
+        y: 1200
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +232,12 @@ TextureImporter:
       name: aliens and explosion_300__2
       rect:
         serializedVersion: 2
-        x: 275
-        y: 1220
-        width: 101
-        height: 95
+        x: 266
+        y: 1200
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +254,12 @@ TextureImporter:
       name: aliens and explosion_300__3
       rect:
         serializedVersion: 2
-        x: 407
-        y: 1220
-        width: 101
-        height: 104
+        x: 399
+        y: 1200
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,12 +276,12 @@ TextureImporter:
       name: aliens and explosion_300__4
       rect:
         serializedVersion: 2
-        x: 533
-        y: 1217
-        width: 125
-        height: 92
+        x: 532
+        y: 1200
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -285,12 +298,12 @@ TextureImporter:
       name: aliens and explosion_300__5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1073
-        width: 101
-        height: 104
+        x: 0
+        y: 1050
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -307,12 +320,12 @@ TextureImporter:
       name: aliens and explosion_300__6
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1073
-        width: 101
-        height: 101
+        x: 133
+        y: 1050
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,12 +342,12 @@ TextureImporter:
       name: aliens and explosion_300__7
       rect:
         serializedVersion: 2
-        x: 269
-        y: 1067
-        width: 107
-        height: 98
+        x: 266
+        y: 1050
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,12 +364,12 @@ TextureImporter:
       name: aliens and explosion_300__8
       rect:
         serializedVersion: 2
-        x: 407
-        y: 1076
-        width: 89
-        height: 101
+        x: 399
+        y: 1050
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,12 +386,12 @@ TextureImporter:
       name: aliens and explosion_300__9
       rect:
         serializedVersion: 2
-        x: 533
-        y: 1067
-        width: 116
-        height: 92
+        x: 532
+        y: 1050
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,12 +408,12 @@ TextureImporter:
       name: aliens and explosion_300__10
       rect:
         serializedVersion: 2
-        x: 68
-        y: 968
-        width: 17
-        height: 17
+        x: 0
+        y: 900
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,12 +430,12 @@ TextureImporter:
       name: aliens and explosion_300__11
       rect:
         serializedVersion: 2
-        x: 56
-        y: 806
-        width: 41
-        height: 41
+        x: 0
+        y: 750
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,12 +452,12 @@ TextureImporter:
       name: aliens and explosion_300__12
       rect:
         serializedVersion: 2
-        x: 47
-        y: 647
-        width: 68
-        height: 68
+        x: 0
+        y: 600
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -461,12 +474,12 @@ TextureImporter:
       name: aliens and explosion_300__13
       rect:
         serializedVersion: 2
-        x: 29
-        y: 482
-        width: 113
-        height: 107
+        x: 0
+        y: 450
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -483,12 +496,12 @@ TextureImporter:
       name: aliens and explosion_300__14
       rect:
         serializedVersion: 2
-        x: 26
-        y: 341
-        width: 86
-        height: 83
+        x: 133
+        y: 450
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,12 +518,12 @@ TextureImporter:
       name: aliens and explosion_300__15
       rect:
         serializedVersion: 2
-        x: 26
-        y: 200
-        width: 83
-        height: 68
+        x: 0
+        y: 300
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -527,12 +540,12 @@ TextureImporter:
       name: aliens and explosion_300__16
       rect:
         serializedVersion: 2
-        x: 62
-        y: 263
-        width: 32
-        height: 11
+        x: 0
+        y: 150
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -549,12 +562,12 @@ TextureImporter:
       name: aliens and explosion_300__17
       rect:
         serializedVersion: 2
-        x: 47
-        y: 191
-        width: 41
-        height: 26
+        x: 0
+        y: 0
+        width: 133
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,165 +580,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__18
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 209
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e01f4c126c465120800000000000000
-      internalID: 2402191435514188003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__19
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 89
-        width: 47
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d581178f58745b4b0800000000000000
-      internalID: -5425351535373510563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__20
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 107
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c5427b84c8ae8ca0800000000000000
-      internalID: -6012682890386455101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__21
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 71
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4de38bb7646da7180800000000000000
-      internalID: -9116738897446420780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__22
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 50
-        width: 26
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0611913e4f966a810800000000000000
-      internalID: 1776223603547246944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__23
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 59
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 106acd9324db54060800000000000000
-      internalID: 6937158893170370049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: aliens and explosion_300__24
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 62
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a02b5946c1d522c60800000000000000
-      internalID: 7791892681832378890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fe483354b0ec6644ca5f9c1a49271a43
     internalID: 0
     vertices: []
     indices: 
@@ -733,7 +592,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":9.0},"gridSpriteSize":{"x":133.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       aliens and explosion_300__0: 5056121404580049537
       aliens and explosion_300__1: -6003842810700872059
@@ -745,14 +606,7 @@ TextureImporter:
       aliens and explosion_300__15: -3997619837488170215
       aliens and explosion_300__16: -4296078088835827970
       aliens and explosion_300__17: 2075655214075014080
-      aliens and explosion_300__18: 2402191435514188003
-      aliens and explosion_300__19: -5425351535373510563
       aliens and explosion_300__2: 988287154400789730
-      aliens and explosion_300__20: -6012682890386455101
-      aliens and explosion_300__21: -9116738897446420780
-      aliens and explosion_300__22: 1776223603547246944
-      aliens and explosion_300__23: 6937158893170370049
-      aliens and explosion_300__24: 7791892681832378890
       aliens and explosion_300__3: 3372271583745025849
       aliens and explosion_300__4: -5914874601013000805
       aliens and explosion_300__5: 5612120888227068421
