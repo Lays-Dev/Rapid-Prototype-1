@@ -957,7 +957,6 @@ GameObject:
   - component: {fileID: 218634140}
   - component: {fileID: 218634141}
   - component: {fileID: 218634142}
-  - component: {fileID: 218634143}
   m_Layer: 7
   m_Name: Enemy Asset_0 (9)
   m_TagString: Untagged
@@ -1671,14 +1670,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 305016491}
-  - component: {fileID: 305016492}
-  - component: {fileID: 305016494}
-  - component: {fileID: 305016493}
-  - component: {fileID: 305016495}
-  - component: {fileID: 305016496}
-  - component: {fileID: 305016497}
-  - component: {fileID: 305016498}
+  - component: {fileID: 302921455}
   m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
@@ -2178,7 +2170,6 @@ GameObject:
   - component: {fileID: 390878251}
   - component: {fileID: 390878252}
   - component: {fileID: 390878253}
-  - component: {fileID: 390878254}
   m_Layer: 7
   m_Name: Enemy Asset_0 (37)
   m_TagString: Untagged
@@ -3095,7 +3086,6 @@ GameObject:
   - component: {fileID: 492109380}
   - component: {fileID: 492109381}
   - component: {fileID: 492109382}
-  - component: {fileID: 492109383}
   m_Layer: 7
   m_Name: Enemy Asset_0 (5)
   m_TagString: Untagged
@@ -3953,7 +3943,6 @@ GameObject:
   - component: {fileID: 560387317}
   - component: {fileID: 560387318}
   - component: {fileID: 560387319}
-  - component: {fileID: 560387320}
   m_Layer: 7
   m_Name: Enemy Asset_0 (13)
   m_TagString: Untagged
@@ -4189,7 +4178,6 @@ GameObject:
   - component: {fileID: 570396225}
   - component: {fileID: 570396226}
   - component: {fileID: 570396227}
-  - component: {fileID: 570396228}
   m_Layer: 7
   m_Name: Enemy Asset_0
   m_TagString: Untagged
@@ -4767,7 +4755,6 @@ GameObject:
   - component: {fileID: 757282934}
   - component: {fileID: 757282935}
   - component: {fileID: 757282936}
-  - component: {fileID: 757282937}
   m_Layer: 7
   m_Name: Enemy Asset_0 (11)
   m_TagString: Untagged
@@ -5625,7 +5612,6 @@ GameObject:
   - component: {fileID: 967063843}
   - component: {fileID: 967063844}
   - component: {fileID: 967063845}
-  - component: {fileID: 967063846}
   m_Layer: 7
   m_Name: Enemy Asset_0 (35)
   m_TagString: Untagged
@@ -5892,7 +5878,6 @@ GameObject:
   - component: {fileID: 1074660392}
   - component: {fileID: 1074660393}
   - component: {fileID: 1074660394}
-  - component: {fileID: 1074660395}
   m_Layer: 7
   m_Name: Enemy Asset_0 (32)
   m_TagString: Untagged
@@ -6128,7 +6113,6 @@ GameObject:
   - component: {fileID: 1102622318}
   - component: {fileID: 1102622319}
   - component: {fileID: 1102622320}
-  - component: {fileID: 1102622321}
   m_Layer: 7
   m_Name: Enemy Asset_0 (21)
   m_TagString: Untagged
@@ -6364,7 +6348,6 @@ GameObject:
   - component: {fileID: 1120383925}
   - component: {fileID: 1120383926}
   - component: {fileID: 1120383927}
-  - component: {fileID: 1120383928}
   m_Layer: 7
   m_Name: Enemy Asset_0 (8)
   m_TagString: Untagged
@@ -8702,7 +8685,6 @@ GameObject:
   - component: {fileID: 1567863582}
   - component: {fileID: 1567863583}
   - component: {fileID: 1567863584}
-  - component: {fileID: 1567863585}
   m_Layer: 7
   m_Name: Enemy Asset_0 (12)
   m_TagString: Untagged
@@ -8938,7 +8920,6 @@ GameObject:
   - component: {fileID: 1623299801}
   - component: {fileID: 1623299802}
   - component: {fileID: 1623299803}
-  - component: {fileID: 1623299804}
   m_Layer: 7
   m_Name: Enemy Asset_0 (22)
   m_TagString: Untagged
@@ -9175,7 +9156,6 @@ GameObject:
   - component: {fileID: 1655756267}
   - component: {fileID: 1655756268}
   - component: {fileID: 1655756269}
-  - component: {fileID: 1655756270}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -9515,7 +9495,6 @@ GameObject:
   - component: {fileID: 1698751624}
   - component: {fileID: 1698751625}
   - component: {fileID: 1698751626}
-  - component: {fileID: 1698751627}
   m_Layer: 7
   m_Name: Enemy Asset_0 (30)
   m_TagString: Untagged
@@ -10069,7 +10048,6 @@ GameObject:
   - component: {fileID: 1822658667}
   - component: {fileID: 1822658668}
   - component: {fileID: 1822658669}
-  - component: {fileID: 1822658670}
   m_Layer: 7
   m_Name: Enemy Asset_0 (2)
   m_TagString: Untagged
@@ -11596,7 +11574,6 @@ GameObject:
   - component: {fileID: 2054836041}
   - component: {fileID: 2054836042}
   - component: {fileID: 2054836043}
-  - component: {fileID: 2054836044}
   m_Layer: 7
   m_Name: Enemy Asset_0 (19)
   m_TagString: Untagged
@@ -11998,7 +11975,6 @@ GameObject:
   - component: {fileID: 2132829214}
   - component: {fileID: 2132829215}
   - component: {fileID: 2132829216}
-  - component: {fileID: 2132829217}
   m_Layer: 7
   m_Name: Enemy Asset_0 (26)
   m_TagString: Untagged

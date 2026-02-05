@@ -1,6 +1,7 @@
 using UnityEngine;
  // Dictionary code requires this namespace
 using System.Collections.Generic;
+using UnityEngine.SceneManagement; // Needed to change scenes
 
 // Name the script this is in EnemyFormation
 public class EnemyFormation : MonoBehaviour
@@ -31,10 +32,30 @@ public class EnemyFormation : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Enemy count requested");
-        startingEnemyCount = transform.childCount;
+        //Debug.Log("Enemy count requested");
+        //startingEnemyCount = transform.childCount;
+        startingEnemyCount = GetAliveEnemyCount();
         UpdateStepSpeed();
         UpdateRowShooters();
+    }
+
+    private int GetAliveEnemyCount()
+    {
+        Debug.Log("Enemy count requested");
+        startingEnemyCount = transform.childCount;
+
+        if (startingEnemyCount <= 0)
+        {
+            // Replace with win screen
+            SceneManager.LoadScene("WinScreen");
+
+            // Enable a UI panel instructions if we go this route
+            // GameObject.Find("DeathScreenPanel").SetActive(true);
+        
+            // Stop enemy movement
+            Time.timeScale = 0f;
+        }
+        return startingEnemyCount;
     }
 
     void Update()
@@ -46,6 +67,8 @@ public class EnemyFormation : MonoBehaviour
             Step();
             stepTimer = 0f;
         }
+
+        GetAliveEnemyCount();
     }
 
     void Step()
