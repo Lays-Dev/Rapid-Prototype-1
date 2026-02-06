@@ -1,3 +1,0 @@
-<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Label text="HI-SCORE 0" name="HI-SCORE" style="-unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/Fonts/Star%20Crush%20SDF.asset?fileID=11400000&amp;guid=973ca528b55dcdd439f4964d39063f57&amp;type=2#Star Crush SDF&quot;); font-size: 80px; -unity-text-align: upper-center; text-shadow: 5px 5px 0 rgb(0, 0, 0); -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-outline-width: 3px; -unity-text-outline-color: rgb(0, 0, 0);"/>
-</ui:UXML>
