@@ -105,85 +105,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shields and heart_0
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 8
-        width: 128
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab66de4a57d5bed40800000000000000
-      internalID: 5614684120307033786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shields and heart_1
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 8
-        width: 98
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77ee1f17c0a94b030800000000000000
-      internalID: 3509599387870424695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shields and heart_2
-      rect:
-        serializedVersion: 2
-        x: 347
-        y: 8
-        width: 68
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c40f5880008751cc0800000000000000
-      internalID: -3740951973923000244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: shields and heart_3
       rect:
         serializedVersion: 2
-        x: 533
-        y: 47
-        width: 86
-        height: 98
+        x: 534
+        y: 48
+        width: 84
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,11 +143,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: shieldSprites0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 126
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02efa50013bed0c4d93ea28e1362c583
+      internalID: -2018721679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldSprites1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 9
+        width: 96
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ecdd4719ba70d46a2cb4e70a5d6f6b
+      internalID: -1221797005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shieldSprites2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 9
+        width: 66
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87000ab9bdf61294f8b74b3884755a9d
+      internalID: 1864813696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 79903ea7513a6694e9844051e19efd14
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +221,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      shields and heart_0: 5614684120307033786
-      shields and heart_1: 3509599387870424695
-      shields and heart_2: -3740951973923000244
+      shieldSprites0: -2018721679
+      shieldSprites1: -1221797005
+      shieldSprites2: 1864813696
       shields and heart_3: -8502086084020183707
+      "using UnityEngine;  public class ShieldHealth  MonoBehaviour {     private int maxHealth = 16;        private int currentHealth;      [SerializeField] private Sprite[] shieldSprites;       Index 0 = full (16)      Index 1 = damaged (12)      Index 2 = heavy damage (8)      Index 3 = critical (4)      private SpriteRenderer spriteRenderer;       void Awake()     {         currentHealth = maxHealth;         spriteRenderer = GetComponentSpriteRenderer();         UpdateShieldVisual();  set starting sprite     }      public void TakeDamage(int damage = 1)     {         currentHealth -= damage;         Debug.Log(gameObject.name +  took damage. Remaining  + currentHealth);           Update visual based on damage         UpdateShieldVisual();          if (currentHealth = 0)         {             Destroy(gameObject);         }     }      void UpdateShieldVisual()     {          Change sprite based on remaining health here         int damageTaken = maxHealth - currentHealth;           16  3 \u2248 5.33 \u2192 thresholds         int spriteIndex;          if (currentHealth  10)        16\u201311             spriteIndex = 0;         else if (currentHealth  5)    10\u20136             spriteIndex = 1;         else                           5\u20131             spriteIndex = 2;          spriteRenderer.sprite = shieldSprites[spriteIndex];     }        private void OnTriggerEnter2D(Collider2D other) {      Check if the object hitting the shield is an enemy projectile     if (other.CompareTag(EnemyLaser))      {         TakeDamage(1);           Destroy the bullet so it doesn't pass through         Destroy(other.gameObject);     } }  }": -2018721679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

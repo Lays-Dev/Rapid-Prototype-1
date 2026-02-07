@@ -6,9 +6,12 @@ public class EnemyLazer : MonoBehaviour
     public float damage = 1f;
     public float lifetime = 5f;
 
+    //AudioManagerScript audioManager;
+
     void Start()
     {
         Destroy(gameObject, lifetime);
+        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManagerScript>();
     }
 
     void Update()
