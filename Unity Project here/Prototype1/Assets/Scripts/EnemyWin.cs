@@ -18,7 +18,7 @@ public class EnemyWin : MonoBehaviour
     void GameOver()
     {
         //Load the death screen
-        SceneManager.LoadScene("DeathScreen");
+        SceneManager.LoadScene("LoseScreen");
 
         // Enable a UI panel instructions if we go this route
         // GameObject.Find("DeathScreenPanel").SetActive(true);

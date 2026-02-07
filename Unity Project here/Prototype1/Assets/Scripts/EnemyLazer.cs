@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyLazer : MonoBehaviour
 {
     public float speed = 5f;
-    public float damage = 1f;
+    public int damage = 1;
     public float lifetime = 5f;
 
     //AudioManagerScript audioManager;
@@ -27,6 +27,15 @@ public class EnemyLazer : MonoBehaviour
         if (player != null)
         {
             player.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+        }
+
+
+        // Hit player bullets
+        if (other.CompareTag("PlayerMagic"))
+        {
+            ScoreManager.Instance.ShotEnemyProjectile();
             Destroy(gameObject);
             return;
         }

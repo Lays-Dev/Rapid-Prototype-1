@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnemyLaser
   - Audio
+  - PlayerMagic
   layers:
   - Default
   - TransparentFX
