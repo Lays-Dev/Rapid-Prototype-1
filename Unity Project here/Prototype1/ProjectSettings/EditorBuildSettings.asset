@@ -14,6 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeathScreen.unity
     guid: 412035f8acf861e43b168c7555b6b4f6
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 4e42bcce41aca4d4db57ad77029bd741
+  - enabled: 1
+    path: Assets/Scenes/Menu+Start.unity
+    guid: c9e1a24830e62c24aa5abbe7d2829699
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 4ecc4f46d1291ae45bf5823ff95c633d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: faddd81ec990ada44bb3eb8111c3c240, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7e40782758a3a4942bb04b213689d426, type: 3}

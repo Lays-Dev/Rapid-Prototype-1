@@ -17,9 +17,17 @@ public class Projectile2 : MonoBehaviour
     // Powered shot
     public bool poweredShot = false;
 
+    AudioManagerScript audioManager;
+
+    void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManagerScript>();
+    }
+
     void OnAttack()
     {
         //Debug.Log("Attack Input Received!");
+        audioManager.PlaySFX(audioManager.attack);
         Shoot();
     }
 

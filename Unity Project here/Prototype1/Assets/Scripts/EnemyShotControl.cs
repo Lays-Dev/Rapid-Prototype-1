@@ -13,6 +13,7 @@ public class EnemyShotControl : MonoBehaviour
     // 10% chance for an enemy to shoot each interval
     public float shootProbability = 0.1f; 
 
+    AudioManagerScript audioManager;
     private List<EnemyScript> enemies = new List<EnemyScript>();
     private float timer = 0f;
 
@@ -20,6 +21,7 @@ public class EnemyShotControl : MonoBehaviour
     {
         // Collect all enemies
         enemies.AddRange(GetComponentsInChildren<EnemyScript>());
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManagerScript>();
     }
 
     void Update()
@@ -55,7 +57,9 @@ public class EnemyShotControl : MonoBehaviour
             {
                 if (Random.value < shootProbability)
                 {
+                    
                     SpawnBulletLeft(e.transform.position);
+                    
                 }
             }
         }
@@ -69,6 +73,8 @@ public class EnemyShotControl : MonoBehaviour
         {
             bullet.transform.parent = bulletsParent;
         }
+        // Play sound every time an enemy shoots
+        audioManager.PlaySFX(audioManager.laser1);
     }
 
 }
