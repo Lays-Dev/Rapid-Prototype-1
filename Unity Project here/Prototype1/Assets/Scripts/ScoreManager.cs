@@ -1,64 +1,92 @@
 using UnityEngine;
+using TMPro;
+using System.Collections;
 
 public class ScoreManager : MonoBehaviour
 {
-    // This line is the Instance property in ScoreManager class for Unity
-    public static ScoreManager Instance;
+    public static ScoreManager Instance; // singleton
 
-    public int Score { get; private set; }
+    [Header("UI")]
+    public TextMeshProUGUI scoreText;
 
     [Header("Combo Settings")]
-    public float comboTimeWindow = 0.5f;
-    private float lastKillTime;
-    private bool comboActive;
+    public float comboTimeWindow = 0.5f; // seconds to chain kills
 
-    private void Awake()
+    private int score = 0;
+    private int comboMultiplier = 1;
+    private float lastKillTime = 0f;
+
+    void Awake()
     {
+        // Singleton pattern
         if (Instance == null)
             Instance = this;
         else
             Destroy(gameObject);
+
+        UpdateUI();
     }
 
-    // ================= ENEMY KILL =================
+    #region Enemy Kill
     public void AddEnemyKill(int columnNumber)
     {
-        int basePoints = 10 * columnNumber;
-
-        // Check combo
+        // Check combo timing
         if (Time.time - lastKillTime <= comboTimeWindow)
         {
-            basePoints *= 2;
-            comboActive = true;
+            comboMultiplier = 2; // double points for quick consecutive kills
         }
         else
         {
-            comboActive = false;
+            comboMultiplier = 1; // reset combo
         }
 
         lastKillTime = Time.time;
 
-        AddScore(basePoints);
+        int points = 10 * columnNumber * comboMultiplier;
+        AddPoints(points);
     }
+    #endregion
 
-    // ================= PLAYER DAMAGE =================
-    public void PlayerLostHealth()
-    {
-        AddScore(-100);
-    }
-
-    // ================= PROJECTILE BONUS =================
+    #region Enemy Projectile
     public void ShotEnemyProjectile()
     {
-        AddScore(100);
+        AddPoints(100);
+        Debug.Log("Player shot projectile. Score updated: " + score);
     }
+    #endregion
 
-    // ================= CORE ADD =================
-    private void AddScore(int amount)
+    #region Player Damage
+    public void PlayerLostHealth()
     {
-        Score += amount;
-        Score = Mathf.Max(Score, 0); // never below 0
-
-        ScoreUI.Instance.UpdateScore(Score, comboActive);
+        AddPoints(-100);
+        Debug.Log("Player lost health. Score updated: " + score);
     }
+    #endregion
+
+    #region Core
+    private void AddPoints(int amount)
+    {
+        score += amount;
+
+        // Clamp to zero
+        if (score < 0)
+            score = 0;
+
+        Debug.Log("Score updated: " + score);
+
+        UpdateUI();
+    }
+
+    private void UpdateUI()
+    {
+        if (scoreText != null)
+            scoreText.text = "Score: " + score;
+    }
+
+    // Optional getter if you need it elsewhere
+    public int GetScore()
+    {
+        return score;
+    }
+    #endregion
 }

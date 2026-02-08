@@ -24,7 +24,7 @@ public class ShieldHealth : MonoBehaviour
     public void TakeDamage(int damage = 1)
     {
         currentHealth -= damage;
-        Debug.Log(gameObject.name + " took damage. Remaining: " + currentHealth);
+        //Debug.Log(gameObject.name + " took damage. Remaining: " + currentHealth);
 
         // Update visual based on damage
         UpdateShieldVisual();

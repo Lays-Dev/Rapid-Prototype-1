@@ -44,6 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UIsort
+    uniqueID: 1190997899
+    locked: 0
   - name: Objects
     uniqueID: 1576115967
     locked: 0

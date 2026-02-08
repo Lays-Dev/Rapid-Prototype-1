@@ -33,7 +33,7 @@ public class Projectile2 : MonoBehaviour
 
     void Shoot()
     {
-        Debug.Log("Shoot Input RSeceived!");
+        //Debug.Log("Shoot Input RSeceived!");
 
         // Check cooldown
         if (Time.time < lastFireTime + fireCooldown)

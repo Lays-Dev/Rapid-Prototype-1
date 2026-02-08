@@ -6,9 +6,12 @@ public class EnemyWin : MonoBehaviour
     private void Update()
     {
         
+
         // Check if they reach an X position to end the game
-        if (transform.position.x <= -5f)
+        if (transform.position.x <= -19f)
         {
+            Debug.Log(gameObject.name + " x = " + transform.position.x);
+
             Debug.Log("Threshold reached! Triggering Game Over.");
             // Trigger game over
             GameOver();
