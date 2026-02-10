@@ -6,7 +6,7 @@ public class ProjectileBullet : MonoBehaviour
     public float damage = 1f;
     AudioManagerScript audioManager;
 
-    public float lifetime = 5f; // auto-destroy after 5 seconds
+    public float lifetime = 8f; // auto-destroy after 8 seconds
 
     void Start()
     {

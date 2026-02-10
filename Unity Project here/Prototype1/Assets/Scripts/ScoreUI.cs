@@ -10,17 +10,14 @@ public class ScoreUI : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        Instance = this;
+        UpdateScore(ScoreManager.Instance.GetScore(), false);
+       
     }
 
     public void UpdateScore(int score, bool combo)
     {
         scoreText.text = $"Score: {score}";
 
-        if (comboText != null)
-            comboText.SetActive(combo);
     }
 }

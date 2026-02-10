@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoseScreen.unity
     guid: 93785bd9102a5cd45bd3aed00207779e
+  - enabled: 1
+    path: Assets/Scenes/PrologueScreen.unity
+    guid: cf0cd60a7c0dbb942b4f223f2933094c
+  - enabled: 1
+    path: Assets/Scenes/EpilogueScreen.unity
+    guid: 42059521b5719584b810ac9997746aef
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: faddd81ec990ada44bb3eb8111c3c240, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7e40782758a3a4942bb04b213689d426, type: 3}

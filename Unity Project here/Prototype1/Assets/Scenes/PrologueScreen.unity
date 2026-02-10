@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 3
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -497,36 +497,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In the far reaches of the Astryx Galaxy,\r\n\r\n257 regions exist under
-    the oversight of a vast governing body known as the Universal Continuum of Future
-    Prosperity, who claims to guide the galaxy toward stability, order, and success.\r\n
-    \r\nWithin this galaxy lies Pegasia Nova, an emergent galactic region where myth
-    and technology coexist. With planets full of mythical companions at their side,
-    scholars, engineers, and designers have shaped the galaxy for eons through creative
-    expression, technological advancement, and magical innovation, shared freely
-    for the benefit of all within the galaxy. \n\r\nHowever, this creativity does
-    not go unnoticed.\r\n \r\nIn the eyes of the interstellar government, efficiency
-    is valued above all else, and anything that cannot be objectively measured is
-    considered expendable. Under its rule, progress is defined by approved systems
-    and standardized metrics meant to keep the galaxy orderly and predictable. \n\nThose
-    in power do not see this approach as harsh or corrupt despite being so. To them,
-    this is the only sensible way to govern a boundless galaxy.\n\r\nAnd in a galaxy
-    full of differences and uncertainty, that belief sows the seeds of doubt and
-    fear of underperformance. For this reason, Pegasia Nova\u2019s freedom, imagination,
-    and magic have simply been marked as a problem yet to be solved.\r\n \r\nNear
-    the center of the Astryx Galaxy lies the Citrine Cluster from which the government\u2019s
-    Citronian Compliance Corps operates. From this position, its forces can be deployed
-    swiftly to any sector that threatens universal progress. Its soldiers, known
-    as Citronians, serve as enforcers tasked with eliminating inefficiency, suppressing
-    defiance, and neutralizing perceived threats.\r\n \r\nDeclared \u201Cnon-viable\u201D
-    under the authority of Commander Evol, the government\u2019s leader, Pegasia
-    Nova\u2019s funding has been cut, its contributions dismissed, and a Citronian
-    fleet has been dispatched to erase the region entirely if compliance is not met.\r\n
-    \r\nAfter receiving an emergency signal, Pegasia Nova\u2019s strongest defender,
-    Apollo, and his Pegasus, Icarus, have drawn the invading forces to Xsudust, a
-    vast interplanetary region where no planet will suffer collateral damage.\r\n
-    \r\nNow, as the Citronian armada descends upon Xsudust, the powerful warrior
-    takes to the stars.\r\nThe battle for Pegasia Nova\u2019s survival begins now!\r\n"
+  m_text: "In the far reaches of the Astryx Galaxy,\r\n \r\nWithin this galaxy lies
+    Pegasia Nova, emergent galactic region where myth and technology coexist. With
+    planets full of mythical companions at their side, designers have shaped the
+    galaxy for eons through creative expression, benefit of all within the galaxy.
+    \n\r\nHowever, this creativity does not go unnoticed.\r\n \r\nIn the eyes of
+    the interstellar government, efficiency is valued above all else, and anything
+    that cannot be objectively measured is considered expendable. Under its rule,
+    progress is defined by approved systems and standardized metrics meant to keep
+    the galaxy orderly and predictable. \n\nThose in power do not see this approach
+    as harsh or corrupt despite being so. To them, this is the only sensible way
+    to govern a boundless galaxy.\n\r\nAnd in a galaxy full of differences and uncertainty,
+    that belief sows the seeds of doubt and fear of underperformance. For this reason,
+    Pegasia Nova\u2019s freedom, imagination, and magic have simply been marked as
+    a problem yet to be solved.\r\n \r\nNear the center of the Astryx Galaxy lies
+    the Citrine Cluster from which the government\u2019s Citronian Compliance Corps
+    operates. From this position, its forces can be deployed swiftly to any sector
+    that threatens universal progress. Its soldiers, known as Citronians, serve as
+    enforcers tasked with eliminating inefficiency, suppressing defiance, and neutralizing
+    perceived threats.\r\n \r\nDeclared \u201Cnon-viable\u201D under the authority
+    of Commander Evol, the government\u2019s leader, Pegasia Nova\u2019s funding
+    has been cut, its contributions dismissed, and a Citronian fleet has been dispatched
+    to erase the region entirely if compliance is not met.\r\n \r\nAfter receiving
+    an emergency signal, Pegasia Nova\u2019s strongest defender, Apollo, and his
+    Pegasus, Icarus, have drawn the invading forces to Xsudust, a vast interplanetary
+    region where no planet will suffer collateral damage.\r\n \r\nNow, as the Citronian
+    armada descends upon Xsudust, the powerful warrior takes to the stars.\r\nThe
+    battle for Pegasia Nova\u2019s survival begins now!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -618,8 +615,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c620f0dae462a054481765f5fa63cf6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextCrawl
-  scrollSpeed: 13
-  endYPosition: 1000
+  scrollSpeed: 90
+  endYPosition: 2000
   nextScene: Level1
 --- !u!1 &1836812411
 GameObject:
@@ -681,7 +678,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.27044016, g: 0.27044016, b: 0.27044016, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.34591186, g: 0.34591186, b: 0.34591186, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -729,7 +726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44025147, g: 0.44025147, b: 0.44025147, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
