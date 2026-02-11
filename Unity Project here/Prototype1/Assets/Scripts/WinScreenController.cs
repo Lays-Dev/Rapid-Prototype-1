@@ -7,7 +7,7 @@ public class WinScreenController : MonoBehaviour
     public void OnPlayAgainClick()
     {
         Debug.Log("click is registered");
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Menu+Start");
     }
 
     public void OnExitClick()

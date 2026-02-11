@@ -603,7 +603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TextCrawl
   scrollSpeed: 120
   endYPosition: 2000
-  nextScene: WinScreen
+  nextScene: Level1
 --- !u!1 &1836812411
 GameObject:
   m_ObjectHideFlags: 0

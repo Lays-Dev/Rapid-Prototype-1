@@ -46,7 +46,7 @@ private int GetAliveEnemyCount()
 
     if (alive <= 0)
     {
-        SceneManager.LoadScene("PrologueScreen");
+        SceneManager.LoadScene("WinScreen");
         Time.timeScale = 0f;
     }
 

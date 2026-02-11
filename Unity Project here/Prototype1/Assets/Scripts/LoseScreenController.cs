@@ -6,7 +6,7 @@ public class LoseScreenController : MonoBehaviour
 {
     public void OnTryAgainClick()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Menu+Start");
     }
 
     public void OnExitClick()
