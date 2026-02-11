@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 3
+  m_ScaleFactor: 5
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -601,9 +601,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c620f0dae462a054481765f5fa63cf6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextCrawl
-  scrollSpeed: 30
-  endYPosition: 1450
-  nextScene: Level1
+  scrollSpeed: 120
+  endYPosition: 2000
+  nextScene: WinScreen
 --- !u!1 &1836812411
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -28.5749, y: -20.6525}
+  m_AnchoredPosition: {x: -28.578125, y: -20.65625}
   m_SizeDelta: {x: 35.9485, y: 13.8969}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1836812413
@@ -908,7 +908,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -442.4946}
+  m_AnchoredPosition: {x: 0, y: -442.4922}
   m_SizeDelta: {x: 0, y: 884.9892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075715675

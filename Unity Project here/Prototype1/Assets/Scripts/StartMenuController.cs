@@ -6,7 +6,7 @@ public class StartMenuController : MonoBehaviour
 {
    public void OnStartClick()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("EpilogueScreen");
     }
 
     public void OnCreditClick()
